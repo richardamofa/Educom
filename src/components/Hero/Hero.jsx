@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import heroImage from '../../assets/hero.png';
-import {FaTrophy, FaUserGraduate} from 'react-icons/fa'
+import {FaTrophy, FaUserGraduate, FaPlay} from 'react-icons/fa'
 
 const Hero = () => {
   return (
@@ -34,7 +34,9 @@ const Hero = () => {
               Experienced mentor
             </div>
             <div className="hero__badge-item">
-              <span className="badge-icon badge-icon--orange">▶</span>
+              <span className="badge-icon badge-icon--orange">
+                <FaPlay />
+              </span>
               Quality Videos
             </div>
             <div className="hero__badge-item">
