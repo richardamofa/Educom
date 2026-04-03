@@ -2,27 +2,48 @@ import React, { useState } from 'react';
 import './Testimonials.css';
 
 const testimonials = [
-  {
-    name: 'Alex Goncharov',
-    location: 'Los Angeles, CA',
-    avatar: 'AG',
-    color: '#3B82F6',
-    text: 'Easy secure access to digital should be the status in the education. Easy secure access to. One of the advantages of online learning at home is that the learning process.',
-  },
-  {
-    name: 'Andrew Smith',
-    location: 'Salt Lake, DC',
-    avatar: 'AS',
-    color: '#F97316',
-    text: 'Easy secure access to digital should be the status in the education. Easy secure access to. One of the advantages of online learning at home is that the learning process.',
-  },
-  {
-    name: 'Sarah Johnson',
-    location: 'New York, NY',
-    avatar: 'SJ',
-    color: '#22C55E',
-    text: 'Easy secure access to digital should be the status in the education. Easy secure access to. One of the advantages of online learning at home is that the learning process.',
-  },
+    {
+        name: 'Khriya Hummul',
+        location: 'Madina, Accra',
+        avatar: 'KH',
+        color: '#f63bda',
+        text: 'The platform has transformed how I approach learning. The interface is intuitive and the course materials are comprehensive. I\'ve seen significant improvement in my academic performance.',
+    },
+    {
+        name: 'Andrea Opare',
+        location: 'Tesano, Abeka',
+        avatar: 'AO',
+        color: '#F97316',
+        text: 'Outstanding experience! The instructors are knowledgeable and responsive. The flexibility of studying at my own pace while maintaining quality education is exactly what I needed.',
+    },
+    {
+        name: 'Jude Dela',
+        location: 'Abeka, Accra',
+        avatar: 'JD',
+        color: '#22C55E',
+        text: 'A game-changer in digital education. The interactive features and real-time feedback helped me grasp complex concepts easily. Highly recommended for anyone serious about learning.',
+    },
+    {
+        name: 'Ben-Charles',
+        location: 'Dansoman, DC',
+        avatar: 'BC',
+        color: '#2287c5',
+        text: 'Exceptional platform with great community support. I\'ve made meaningful connections with peers and received invaluable mentorship. This has truly accelerated my learning journey.',
+    },
+    {
+        name: 'Prince Appiahgyei',
+        location: 'Ablekuma, Accra',
+        avatar: 'PA',
+        color: '#b8c522',
+        text: 'Impressed by the quality of content and the modern teaching approach. The resources are well-organized and easily accessible. It\'s made continuing my education while working possible.',
+    },
+    {
+        name: 'Kelly Baidoo',
+        location: 'Alajo, Abeka',
+        avatar: 'KB',
+        color: '#c56922',
+        text: 'Best investment I\'ve made in my education. The practical assignments and projects have directly enhanced my professional skills. I feel more confident pursuing my career goals now.',
+    },
 ];
 
 const Testimonials = () => {

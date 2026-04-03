@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <div className="container navbar__inner">
         <a href="#" className="navbar__logo">
-          <span className="logo-edu">Edu</span><span className="logo-com">.com</span>
+          <span className="logo-edu">Edu</span><span className="logo-com">com</span>
         </a>
 
         <ul className={`navbar__links ${menuOpen ? 'navbar__links--open' : ''}`}>

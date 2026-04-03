@@ -24,6 +24,7 @@ const Newsletter = () => {
             Get updated with our educational news. We Promise not to<br />
             spam-mail you. Subscribe now.
           </p>
+          {/* check if submitted */}
           {submitted ? (
             <div className="newsletter__success">
               🎉 Thank you! You've subscribed successfully.

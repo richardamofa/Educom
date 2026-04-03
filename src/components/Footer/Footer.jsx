@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="container footer__inner">
         <div className="footer__brand">
           <a href="#" className="footer__logo">
-            <span className="logo-edu">Edu</span><span className="logo-com">.com</span>
+            <span className="logo-edu">Edu</span><span className="logo-com">com</span>
           </a>
           <p className="footer__tagline">
             Solution for easy and flexible online learning. You can study anywhere through this platform.
@@ -41,7 +41,7 @@ const Footer = () => {
 
       <div className="footer__bottom">
         <div className="container">
-          <p>© {new Date().getFullYear()} Edu.com. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Educom. All rights reserved.</p>
         </div>
       </div>
     </footer>

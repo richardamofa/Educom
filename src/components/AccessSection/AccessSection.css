@@ -31,6 +31,16 @@
   transform: translateX(-50%);
 }
 
+.access__image {
+  width: 100%;
+  max-width: 350px;
+  height: 500px;
+  object-fit: contain;
+  position: relative;
+  z-index: 2;
+  left: 10%;
+}
+
 .access__figure {
   position: absolute;
   bottom: 0;
@@ -44,7 +54,7 @@
 .access__float-badge {
   position: absolute;
   top: 30px;
-  right: 10px;
+  right: 40px;
   background: #fff;
   border-radius: var(--radius-md);
   padding: 12px 16px;
@@ -55,6 +65,10 @@
   z-index: 3;
   font-size: 22px;
   animation: cardFloat 4s ease-in-out infinite;
+}
+
+.access__float-icon {
+    color: #facc15;
 }
 
 .float-title {
@@ -118,8 +132,23 @@
   flex-shrink: 0;
 }
 
+.access__feature-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
 .access__btn {
   box-shadow: 0 4px 20px rgba(37, 99, 235, 0.3);
+}
+
+.access__btn:hover {
+    border-color: #F97316;
+    background: #F97316;
 }
 
 @media (max-width: 900px) {

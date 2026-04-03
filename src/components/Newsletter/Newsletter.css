@@ -6,10 +6,17 @@
 .newsletter__inner {
   background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 60%, #1E40AF 100%);
   border-radius: var(--radius-xl);
-  padding: 72px 60px;
+  padding: 78px 62px;
   text-align: center;
   position: relative;
   overflow: hidden;
+    /*clip-path: polygon(
+    0 0, 
+    100% 0, 
+    100% 85%, 
+    50% 100%, 
+    0 85%
+  );*/
 }
 
 .newsletter__decor {

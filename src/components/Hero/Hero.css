@@ -130,6 +130,11 @@
   box-shadow: 0 4px 20px rgba(37, 99, 235, 0.35);
 }
 
+.hero__btn-main:hover {
+    border-color: var(--accent-orange);
+    background: var(--accent-orange);
+}
+
 .hero__badges {
   display: flex;
   gap: 24px;
@@ -177,6 +182,16 @@
   position: relative;
   width: 480px;
   height: 420px;
+}
+
+.hero__image {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  object-fit: contain;
+  position: relative;
+  z-index: 2;
+  left: 30%;
 }
 
 .hero__circle {
@@ -273,12 +288,13 @@
 
 .float-card-icon {
   font-size: 24px;
+  color: #facc15;
 }
 
 .float-card-title {
   font-weight: 800;
   font-size: 15px;
-  color: var(--text-dark);
+  color: var(--primary);
   font-family: var(--font-heading);
 }
 
