@@ -1,0 +1,123 @@
+.testimonials {
+  padding: 100px 0;
+  background: var(--bg-light);
+}
+
+.testimonials__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 48px;
+  gap: 24px;
+}
+
+.testimonials__title {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.testimonials__title::after {
+  margin: 12px 0 0;
+}
+
+.testimonials__controls {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding-top: 8px;
+}
+
+.testi-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--border);
+  background: #fff;
+  color: var(--text-medium);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.testi-btn:hover,
+.testi-btn--next {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+}
+
+.testimonials__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+
+/* Card */
+.testi-card {
+  background: #fff;
+  border-radius: var(--radius-lg);
+  padding: 36px;
+  border: 1px solid var(--border);
+  transition: box-shadow 0.3s ease;
+}
+
+.testi-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.testi-card__quote {
+  margin-bottom: 16px;
+  opacity: 0.9;
+}
+
+.testi-card__text {
+  font-size: 15px;
+  color: var(--text-medium);
+  line-height: 1.8;
+  margin-bottom: 28px;
+}
+
+.testi-card__author {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.testi-card__avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 800;
+  font-size: 16px;
+  font-family: var(--font-heading);
+  flex-shrink: 0;
+}
+
+.testi-card__name {
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--text-dark);
+  font-family: var(--font-heading);
+}
+
+.testi-card__location {
+  font-size: 13px;
+  color: var(--text-light);
+  font-weight: 600;
+}
+
+@media (max-width: 700px) {
+  .testimonials__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials__header {
+    flex-direction: column;
+  }
+}
