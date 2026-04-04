@@ -2,6 +2,7 @@ import React from 'react';
 import './Hero.css';
 import heroImage from '../../assets/hero.png';
 import {FaTrophy, FaUserGraduate, FaPlay} from 'react-icons/fa'
+import { IoPlay } from 'react-icons/io5';
 
 const Hero = () => {
   return (
@@ -35,7 +36,7 @@ const Hero = () => {
             </div>
             <div className="hero__badge-item">
               <span className="badge-icon badge-icon--orange">
-                <FaPlay />
+                <IoPlay />
               </span>
               Quality Videos
             </div>

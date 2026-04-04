@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Newsletter.css';
+import { GiPartyPopper } from 'react-icons/gi';
 
 const Newsletter = () => {
   const [email, setEmail] = useState('');
@@ -24,10 +25,10 @@ const Newsletter = () => {
             Get updated with our educational news. We Promise not to<br />
             spam-mail you. Subscribe now.
           </p>
-          {/* check if submitted */}
+          {/* check if submitted and display message */}
           {submitted ? (
             <div className="newsletter__success">
-              🎉 Thank you! You've subscribed successfully.
+             <GiPartyPopper className='celebration-icon' /> Thank you! You've subscribed successfully.
             </div>
           ) : (
             <form className="newsletter__form" onSubmit={handleSubmit}>
