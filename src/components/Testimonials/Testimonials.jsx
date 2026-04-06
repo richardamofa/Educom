@@ -2,48 +2,62 @@ import React, { useState } from 'react';
 import './Testimonials.css';
 
 const testimonials = [
-    {
-        name: 'Khriya Hummul',
-        location: 'Madina, Accra',
-        avatar: 'KH',
-        color: '#f63bda',
-        text: 'The platform has transformed how I approach learning. The interface is intuitive and the course materials are comprehensive. I\'ve seen significant improvement in my academic performance.',
-    },
-    {
-        name: 'Andrea Opare',
-        location: 'Tesano, Abeka',
-        avatar: 'AO',
-        color: '#F97316',
-        text: 'Outstanding experience! The instructors are knowledgeable and responsive. The flexibility of studying at my own pace while maintaining quality education is exactly what I needed.',
-    },
-    {
-        name: 'Jude Dela',
-        location: 'Abeka, Accra',
-        avatar: 'JD',
-        color: '#22C55E',
-        text: 'A game-changer in digital education. The interactive features and real-time feedback helped me grasp complex concepts easily. Highly recommended for anyone serious about learning.',
-    },
-    {
-        name: 'Ben-Charles',
-        location: 'Dansoman, DC',
-        avatar: 'BC',
-        color: '#2287c5',
-        text: 'Exceptional platform with great community support. I\'ve made meaningful connections with peers and received invaluable mentorship. This has truly accelerated my learning journey.',
-    },
-    {
-        name: 'Prince Appiahgyei',
-        location: 'Ablekuma, Accra',
-        avatar: 'PA',
-        color: '#b8c522',
-        text: 'Impressed by the quality of content and the modern teaching approach. The resources are well-organized and easily accessible. It\'s made continuing my education while working possible.',
-    },
-    {
-        name: 'Kelly Baidoo',
-        location: 'Alajo, Abeka',
-        avatar: 'KB',
-        color: '#c56922',
-        text: 'Best investment I\'ve made in my education. The practical assignments and projects have directly enhanced my professional skills. I feel more confident pursuing my career goals now.',
-    },
+  {
+    name: 'Khriya Hummul',
+    location: 'Madina, Accra',
+    avatar: 'KH',
+    color: '#f63bda',
+    text: 'This learning platform has completely revolutionized my educational approach. The user-friendly design makes navigation seamless, and the course content is incredibly thorough. My grades have improved dramatically.',
+  },
+  {
+    name: 'Andrea Opare',
+    location: 'Tesano, Abeka',
+    avatar: 'AO',
+    color: '#F97316',
+    text: 'Truly exceptional! The teaching staff is highly competent and always available when needed. Being able to learn at my own pace without compromising on quality is exactly what I was looking for.',
+  },
+  {
+    name: 'Jude Dela',
+    location: 'Abeka, Accra',
+    avatar: 'JD',
+    color: '#22C55E',
+    text: 'This platform has revolutionized online education. The engaging tools and prompt feedback have made difficult topics much easier to understand. I strongly recommend it to all serious learners.',
+  },
+  {
+    name: 'Ben-Charles',
+    location: 'Dansoman, DC',
+    avatar: 'BC',
+    color: '#2287c5',
+    text: 'Remarkable platform with fantastic peer support. I\'ve built strong relationships with other learners and received excellent guidance. It\'s significantly boosted my educational progress.',
+  },
+  {
+    name: 'Prince Appiahgyei',
+    location: 'Ablekuma, Accra',
+    avatar: 'PA',
+    color: '#b8c522',
+    text: 'Amazed by the excellent content quality and innovative teaching methods. The course materials are logically structured and readily available. Balancing work and continued education has never been easier.',
+  },
+  {
+    name: 'Kelly Baidoo',
+    location: 'Alajo, Abeka',
+    avatar: 'KB',
+    color: '#c56922',
+    text: 'The best decision for my education career. Hands-on projects and assignments have boosted my practical expertise. I\'m now much more confident in achieving my professional dreams.',
+  },
+  {
+    name: 'Dosty Prince',
+    location: 'Pokuase, Accra',
+    avatar: 'DP',
+    color: '#92eace',
+    text: 'A worthwhile investment in my future. The practical work and real-world projects have significantly strengthened my skill set. I\'m excited about my career prospects now.',
+  },
+  {
+    name: 'Dani Biggs',
+    location: 'Weja, Kasoa',
+    avatar: 'DB',
+    color: '#61c522',
+    text: 'Excellent platform with diverse courses suitable for all learners. Highly satisfied with the overall experience and learning outcomes.',
+  },
 ];
 
 const Testimonials = () => {
